@@ -1,0 +1,69 @@
+//#include "morsemap.h"
+#include <iostream>
+#include <map>
+
+using namespace std;
+
+
+map <char, string> morseCode;
+map <string, char> letterCode;
+
+
+void morsemap() {
+	
+	morseCode['a'] = ".-";
+	morseCode['b'] = "-...";
+	morseCode['c'] = "-.-.";
+	morseCode['d'] = "-..";
+	morseCode['e'] = ".";
+	morseCode['f'] = "..-.";
+	morseCode['g'] = "--.";
+	morseCode['h'] = "...."; 
+	morseCode['i'] = "..";
+	morseCode['j'] = ".---";
+	morseCode['k'] = "-.-";
+	morseCode['l'] = ".-..";
+	morseCode['m'] = "--";
+	morseCode['n'] = "-.";
+	morseCode['o'] = "---";
+	morseCode['p'] = ".--.";
+	morseCode['q'] = "--.-";
+	morseCode['r'] = ".-.";
+	morseCode['s'] = "...";
+	morseCode['t'] = "-";
+	morseCode['u'] = "..-";
+	morseCode['v'] = "...-";
+	morseCode['w'] = ".--";
+	morseCode['x'] = "-..-";
+	morseCode['y'] = "-.--";
+	morseCode['z'] = "--..";
+
+	letterCode[".-"] = 'a';
+	letterCode["-..."] = 'b';
+	letterCode["-.-."] = 'c';
+	letterCode["-.."] = 'd';
+	letterCode["."] = 'e';
+	letterCode["..-."] = 'f';
+	letterCode["--."] = 'g';
+	letterCode["...."] = 'h';
+	letterCode[".."] = 'i';
+	letterCode[".---"] = 'j';
+	letterCode["-.-"] = 'k';
+	letterCode[".-.."] = 'l';
+	letterCode["--"] = 'm';
+	letterCode["-."] = 'n';
+	letterCode["---"] = 'o';
+	letterCode[".--."] = 'p';
+	letterCode["--.-"] = 'q';
+	letterCode[".-."] = 'r';
+	letterCode["..."] = 's';
+	letterCode["-"] = 't';
+	letterCode["..-"] = 'u';
+	letterCode["...-"] = 'v';
+	letterCode[".--"] = 'w';
+	letterCode["-..-"] = 'x';
+	letterCode["-.--"] = 'y';
+	letterCode["--.."] = 'z';
+
+
+}
